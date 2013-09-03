@@ -287,11 +287,13 @@ module.exports = function (grunt) {
     karma: {
       unit: {
         configFile: 'karma.conf.js',
-        singleRun: true
+        singleRun: true,
+        browsers: ['PhantomJS']
       },
       func: {
-        configFile: 'karma.browsers.conf.js',
-        singleRun: true
+        configFile: 'karma.conf.js',
+        singleRun: true,
+        browsers: ['Chrome', 'Firefox', 'Safari']
       }
     },
     cdnify: {
