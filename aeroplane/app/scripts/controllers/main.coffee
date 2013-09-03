@@ -1,10 +1,9 @@
-'use strict';
+'use strict'
 
 angular.module('aeroplaneApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller 'MainCtrl', ($scope) ->
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
-    ];
-  });
+    ]
