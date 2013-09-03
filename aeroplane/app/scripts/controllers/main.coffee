@@ -3,7 +3,7 @@
 angular.module('aeroplaneApp')
   .controller 'MainCtrl', ($scope) ->
     $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
+      'HTML5 Boilerplate'
+      'AngularJS'
       'Karma'
     ]

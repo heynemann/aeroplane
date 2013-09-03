@@ -1,12 +1,10 @@
 'use strict'
 
 angular.module('aeroplaneApp', [])
-  .config(($routeProvider) ->
+  .config ($routeProvider) ->
     $routeProvider
-      .when '/main',
-        templateUrl: 'views/main.html',
+      .when '/',
+        templateUrl: 'views/main.html'
         controller: 'MainCtrl'
-      .otherwise(
+      .otherwise
         redirectTo: '/'
-      )
-  )
